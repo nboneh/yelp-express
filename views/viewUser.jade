@@ -2,6 +2,7 @@ extends layout
 
 block content
 	h3= user.name
+	img(src='/public/images/sampleperson.gif' height='42' width='42').vcenter
 	font(size ='2') Fans: #{user.fans}
 	font(size ='1')&nbsp;&nbsp;Yelping since: #{user.yelping_since}
 	div.row
